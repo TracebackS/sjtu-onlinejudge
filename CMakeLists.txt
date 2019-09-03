@@ -3,9 +3,10 @@ project(sjtu_onlinejudge C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(1000 src/1000.c)
+add_executable(1000 src/1000.c src/1006.c)
 add_executable(1001 src/1001.c)
 add_executable(1002 src/1002.c)
 add_executable(1003 src/1003.c)
 add_executable(1004 src/1004.c)
 add_executable(1005 src/1005.c)
+add_executable(1006 src/1006.c)
